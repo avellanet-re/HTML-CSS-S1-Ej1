@@ -1,0 +1,148 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        "a1 a2 a3"
+        ". . .";
+}
+
+.a1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . a11"
+        ". . a11"
+        ". . a11";
+    grid-area: a1;
+    /* Bordes  */
+    border-radius: 10px;
+    border: solid 5px black;
+    margin: 10px;
+
+    /* Fondo para tarjeta */
+    background-image: url("/img/abacus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+
+
+}
+
+
+.a11 {
+    grid-area: a11;
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    
+    
+
+}
+
+.a2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". a21 ."
+        ". a21 ."
+        ". a21 .";
+    grid-area: a2;
+    /* Bordes  */
+    border-radius: 10px;
+    border: solid 5px black;
+    margin: 10px;
+        /* Fondo para tarjeta */
+        background-image: url("/img/casalibro.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        text-align: center;
+}
+
+.a21 {
+    grid-area: a21;
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+
+}
+
+.a3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". a31 ."
+        ". a31 ."
+        ". a31 .";
+    grid-area: a3;
+    /* Bordes  */
+    border-radius: 10px;
+    border: solid 5px black;
+    margin: 10px;
+    /* Fondo para tarjeta */
+    background-image: url("/img/todoslibros.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        text-align: center;
+    
+}
+
+.a31 {
+    grid-area: a31;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+
+
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    top: 50px;
+    position: relative;
+}
+h2 {
+    position: relative;
+    color:white;
+    font-style: italic;
+    /* Alinear texto */
+    left: 100%;
+    bottom: 10px;
+
+}
+
+.titulo {
+    font-style: italic;
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}

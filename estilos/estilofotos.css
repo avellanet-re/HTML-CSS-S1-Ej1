@@ -1,0 +1,200 @@
+/* .bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    Preserve aspet ratio
+    min-width: 100%;
+    min-height: 100%;
+    
+  
+  } */
+
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . i3"
+        "i4 i5 i6"
+        "i7 i8 i9";
+    background-image: url("/img/background2.jpg");
+
+    /* Hacer que el bacground este fijo */
+
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+    /* hace que el background siga el scroll */
+     height:100%;
+}
+
+.i1 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto1 ."
+        ". . .";
+}
+
+/* Centrar imagenes */
+.centrarimg{
+    display:block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* dando borde */
+    border-radius: 10px;
+    border: solid 5px black;
+
+}
+
+.foto1 {
+    grid-area: foto1;
+
+}
+
+.i2 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto2 ."
+        ". . .";
+}
+
+.foto2 {
+    grid-area: foto2;
+}
+
+.i3 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto3 ."
+        ". . .";
+    grid-area: i3;
+}
+
+.foto3 {
+    grid-area: foto3;
+}
+
+.i4 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto4 ."
+        ". . .";
+    grid-area: i4;
+}
+
+.foto4 {
+    grid-area: foto4;
+}
+
+.i5 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto5 ."
+        ". . .";
+    grid-area: i5;
+}
+
+.foto5 {
+    grid-area: foto5;
+}
+
+.i6 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto6 ."
+        ". . .";
+    grid-area: i6;
+}
+
+.foto6 {
+    grid-area: foto6;
+}
+
+.i7 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto7 ."
+        " . . .";
+    grid-area: i7;
+}
+.foto7 {
+    grid-area: foto7;
+}
+
+
+.i8 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto8 ."
+        ". . .";
+    grid-area: i8;
+}
+
+.foto8 {
+    grid-area: foto8;
+}
+
+.i9 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". foto9 ."
+        ". . .";
+    grid-area: i9;
+    
+}
+
+.foto9 {
+    grid-area: foto9;                                                                                               
+}

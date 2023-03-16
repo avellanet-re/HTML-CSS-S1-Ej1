@@ -1,0 +1,35 @@
+.container {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."
+      ". concepto ."
+      ". . ."; 
+      background-image: url("/img/background.jpg") ;
+  }
+  .concepto {
+    background-color: #404040;
+    display: grid; 
+    grid-template-columns: 0.5fr 2fr 0.5fr; 
+    grid-template-rows: .05fr 2fr 0.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". titulo ."
+      ". texto ."
+      ". . ."; 
+    grid-area: concepto; 
+  }
+  .titulo {
+    text-align: center;
+     grid-area: titulo;
+
+
+     }
+  .texto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+     grid-area: texto;
+     }

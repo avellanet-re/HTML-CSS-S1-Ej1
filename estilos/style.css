@@ -1,0 +1,124 @@
+body{
+    /* height: 2000px; */
+}
+
+
+.icono{
+    height: 15%;
+    width:10%;
+    position: absolute;
+    top:25px;
+    left: 80px;
+
+}
+
+.navbar{
+    height:150px;
+    background-color: #404040;
+    z-index: 1px;
+
+}
+
+
+.nav-header{
+    text-decoration: none;
+    color: white;
+    float:left;
+    padding: 14px 16px;
+    /* top: 25%;
+    left: 2%; */
+}
+
+
+.nav-menu{
+    float:right;
+    text-decoration: none;
+    color:white;
+    padding:14px 16px;
+    position: relative;
+    top: 35%;
+    right:50px;
+
+}
+
+.nav-menu > a{
+    text-decoration: none;
+    color:aliceblue;
+    padding:14px 16px;
+    
+
+}
+
+.head{
+
+}
+
+
+
+
+.portada{
+    background-image:image();
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.iconoportada{
+    position: absolute;
+    height: 550px;
+    width: 650px;
+    top:50%;
+    left:34%;
+    /* top: 300px;
+    left: 650px; */
+   
+}
+
+/* ESTA PARTE ES PARA CONCEPTO */
+
+/* .carta{
+    border: 1px;
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left:40%;
+} */
+
+/* .container {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."
+      ". concepto ."
+      ". . ."; 
+  }
+  .concepto {
+    background-color: #404040;
+    display: grid; 
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: .05fr 2fr 0.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". titulo ."
+      ". texto ."
+      ". . ."; 
+    grid-area: concepto; 
+  }
+  .titulo {
+     grid-area: titulo;
+
+
+     }
+  .texto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+     grid-area: texto;
+     }
+   */
+

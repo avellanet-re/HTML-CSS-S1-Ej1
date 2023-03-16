@@ -1,0 +1,76 @@
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". a1 ."
+        ". . .";
+
+    /* Background */
+    background-image: url(/img/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* hace que el background siga el scroll */
+    height: 100%;
+}
+
+.a1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "l1 l2 l3"
+        "l1 l2 l3"
+        "l1 l2 l3";
+    grid-area: a1;
+
+}
+
+.l1 {
+    grid-area: l1;
+    border-radius: 10px;
+    border: solid 5px black;
+    margin: 10px;
+
+
+}
+
+.l2 {
+    border-radius: 10px;
+    border: solid 5px black;
+    grid-area: l2;
+    margin: 10px;
+}
+
+.l3 {
+    border-radius: 10px;
+    border: solid 5px black;
+    grid-area: l3;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li,
+h3,
+h4 {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    color:wheat;
+}
+
+li {
+    margin: 15px;
+}
